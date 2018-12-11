@@ -1,0 +1,12 @@
+/*general style*/
+ul,li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*area-1-header*/
+#area-1-header {
+    background: url("../images/banner.jpg") left top no-repeat;
+}
+.left-icon {
+    color: white;
+}
