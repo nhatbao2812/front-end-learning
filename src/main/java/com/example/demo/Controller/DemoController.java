@@ -20,7 +20,7 @@ public class DemoController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/hello")
     public String hello() {
-        return "hello";
+        return "hello ";
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/hello/{value}")
