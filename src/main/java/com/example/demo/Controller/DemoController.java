@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/")
 public class DemoController {
 
-    private HelloService helloService;
+    private final HelloService helloService;
 
     @Autowired
     public DemoController(HelloService helloService) {
